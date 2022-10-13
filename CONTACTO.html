@@ -31,30 +31,38 @@
     </header>
     <main>
         <h3>Consultas</h3>
-        <form class="formulario">
-            <label for="firstname"> Nombre:</label>
-            <input type="text" name="firstname" id="firstname"><br>
-            <label for="lastname"> Apellido:</label>
-            <input type="text" name="lastname" id="lastname"><br>
-            <label for="Cellphone"> Celular:</label>
-            <input type="text" name="cellphone" id="cellphone"><br>
-            <label for="Questions"> Escribe aquí tu consulta:</label>
-            <input type="text" name="questions" id="questions"><br>
-        </form>
+        <div class= "consultas">
+            <form class="formulario">
+            <label for="firstname"> Nombre:</label><br>
+            <input class=dato type="text" name="firstname" id="firstname"><br>
+            <label for="lastname"> Apellido:</label><br>
+            <input class=dato type="text" name="lastname" id="lastname"><br>
+            <label for="Cellphone"> Celular:</label><br>
+            <input class=dato type="text" name="cellphone" id="cellphone"><br>
+            <label for="Questions"> Escribe aquí tu consulta:</label><br>
+            <input class=pregunta type="text" name="questions" id="questions"><br>
+            <button type="button" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
         <h3>Turno depilación definitiva</h3>
-        <form class="formulario">
-            <label for="firstname"> Nombre:</label>
-            <input type="text" name="firstname" id="firstname"><br>
-            <label for="lastname"> Apellido:</label>
-            <input type="text" name="lastname" id="lastname"><br>
-            <label for="Cellphone"> Celular:</label>
-            <input type="text" name="cellphone" id="cellphone"><br>
-            <p id="horario">Horario de preferencia:</p>
-            <label for="mañana"> Por la Mañana:</label>
-            <input type="radio" name="opcion" id="mañana" value="Por la Mañana">
-            <label for="mañana"> Por la tarde:</label>
-            <input type="radio" name="opcion" id="tarde" value="Por la tarde">
-        </form>
+        <div class= "consultas">
+            <form class="formulario"><br>
+            <label for="firstname"> Nombre:</label><br>
+            <input class=dato type="text" name="firstname" id="firstname"><br>
+            <label for="lastname"> Apellido:</label><br>
+            <input class=dato type="text" name="lastname" id="lastname"><br>
+            <label for="Cellphone"> Celular:</label><br>
+            <input class=dato type="text" name="cellphone" id="cellphone"><br>
+            <p id="horario">Horario de preferencia:</p><br>
+            <label class=dato1 for="mañana"> <input type="radio" 
+                name="opcion" id="mañana" value="Por la Mañana"> Por la Mañana</label>
+            <br>
+            <label class="dato1" for="tarde"><input  type="radio" name="opcion" id="tarde" 
+                value="Por la tarde"> Por la tarde</label>
+            <br>
+            <button type="button" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
         <h3>Donde nos Encontramos?</h3>
         <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3395.535309723193!2d-60.76065338529766!3d-31.67393081592481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a8867078d1ff%3A0xced50b2f554d2922!2sModelarte!5e0!3m2!1ses!2sar!4v1663712581482!5m2!1ses!2sar"  
             style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
