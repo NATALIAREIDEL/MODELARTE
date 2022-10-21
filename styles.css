@@ -146,7 +146,7 @@ h2 {color: grey;
                 color: rgb(100, 0, 0);}
 
 
-@media screen and (min-width: 360px) and (max-width: 768px ) {
+@media screen and (min-width: 0px) and (max-width: 768px ) {
 .nav {  flex-direction: column; 
         width:100%;
         overflow: scroll;
